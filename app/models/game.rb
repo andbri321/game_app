@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
 class Game < ApplicationRecord
-  validates :name, presence: true
+    paginates_per 10
+
+    validates :name, presence: true
 end
