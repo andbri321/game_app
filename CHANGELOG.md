@@ -2,6 +2,18 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.0.0] - 2024-05-01
+
+### Added 
+  - [GAMEKILL-18](http://tickets.projectname.com/browse/task_19)
+    Add pagination and Customize kaminari-api-meta-data library
+  - [GAMEKILL-19](http://tickets.projectname.com/browse/task_19)
+    Create feature games and Create GameKill Job
+
+### Changed
+
+### Fixed
+
 ## [1.1.0] - 2024-05-01
 
 ### Added 

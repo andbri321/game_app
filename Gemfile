@@ -4,6 +4,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '3.0.6'
 
 gem 'sidekiq'
+gem 'active_model_serializers'
+gem "kaminari"
+gem "kaminari-api-meta-data", require: "kaminari_api_meta_data"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.7', '>= 6.1.7.7'
